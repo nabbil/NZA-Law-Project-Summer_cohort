@@ -1,0 +1,31 @@
+.nav-border{
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    margin: 0px;
+}
+
+#nav-line{
+    color: gray;
+    font-size: 20px;
+}
+
+.grid div {
+    border: 1px solid rgb(0, 95, 107);
+    border-radius: 3px;
+    background-color: rgba(0, 95, 107, 0.8);
+    padding: 20px;
+    color: white;
+    font-size: 120%;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(200, 250);
+    grid-auto-rows: 100px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-gap: 20px;
+    position: absolute;
+    left: 50%;
+  }
