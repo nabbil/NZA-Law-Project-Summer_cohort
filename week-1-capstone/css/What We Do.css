@@ -1,0 +1,65 @@
+.nav-border{
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    margin: 0px;
+}
+#nav-line{
+    color: gray;
+    font-size: 20px;
+}
+/*Jillian, uncomment this below to get your squares back- Ben*/
+/* .grid div {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    padding: 20px;
+    color: white;
+    font-size: 120%;
+    height: auto;
+  } */
+  /* .grid figure:nth-child(1){
+    background: url(https://images.unsplash.com/photo-1502907997294-84206b78f31b);
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  } */
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+figure img{
+    height: 100%;
+}
+.wrapper {
+    display:grid;
+    grid-template-columns: 15% 85%;
+    color: aliceblue
+    background-color: rgb(129, 8, 8);
+}
+.wrapper > div {
+    backgroud:eee;
+    padding: 1em;
+}
+  .sidenav {
+    background-color: hsl(0, 76%, 33%);
+    height: 500px;
+    width: 200px;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0 0 20px;
+    color: white;
+}
+.firefighter {
+    height: 30px;
+    width: 50px;
+}
+.footer {
+    text-align: center
+}
+.sidebar {
+    background-color: rgb(102, 7, 7);
+    color: white;
+}
